@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <title>HealthData Locker – ফার্মেসি পোর্টাল (BN)</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="page" style="font-family: 'Noto Sans Bengali', system-ui, sans-serif;">
+  <header class="header">
+    <div class="header-left">
+      <div class="logo-icon">H</div>
+      <div>
+        <div class="header-title">HealthData Locker</div>
+        <div style="font-size:12px; opacity:0.9;">ফার্মেসি পোর্টাল</div>
+      </div>
+    </div>
+    <div class="header-right">শিফা ফার্মেসি • ধানমন্ডি</div>
+  </header>
+
+  <main class="main">
+    <aside class="sidebar">
+      <div class="sidebar-title">মেনু</div>
+      <ul class="sidebar-nav">
+        <li class="active">প্রেসক্রিপশন যাচাই</li>
+        <li class="muted">সাম্প্রতিক যাচাই</li>
+        <li class="muted">ইনভেন্টরি (ভবিষ্যৎ)</li>
+      </ul>
+    </aside>
+
+    <section class="content">
+      <div class="card">
+        <div class="section-header">
+          <div>
+            <div class="section-title">প্রেসক্রিপশন যাচাই</div>
+            <div class="section-subtitle">
+              QR কোডের আইডি লিখে বা স্ক্যান করে প্রেসক্রিপশন সত্যি কি না যাচাই করুন।
+            </div>
+          </div>
+        </div>
+
+        <div class="card-row" style="margin-top:18px;">
+          <div class="card-column">
+            <div class="field-group">
+              <label class="label">প্রেসক্রিপশন আইডি / QR কোড টেক্সট</label>
+              <input class="input" placeholder="যেমন: HDL-9F3K-2025">
+            </div>
+            <div class="button-row">
+              <button class="btn btn-primary">যাচাই করুন</button>
+            </div>
+          </div>
+
+          <div class="card-column">
+            <div class="card">
+              <div class="section-subtitle" style="margin-bottom:8px;">ফলাফল প্রিভিউ</div>
+              <div class="badge-success" style="margin-bottom:8px;">যাচাইকৃত প্রেসক্রিপশন</div>
+              <div style="font-size:13px; margin-bottom:4px;">
+                <strong>রোগী:</strong> আনিকা করিম
+              </div>
+              <div style="font-size:13px; margin-bottom:4px;">
+                <strong>ডাক্তার:</strong> ডা. রহমান (ঢাকা সিটি ক্লিনিক)
+              </div>
+              <div style="font-size:13px; margin-bottom:8px;">
+                <strong>তারিখ:</strong> ১২ জানুয়ারি ২০২৫
+              </div>
+              <div style="font-size:13px; margin-bottom:4px;"><strong>ওষুধ:</strong></div>
+              <ul style="font-size:13px; margin-left:16px; margin-bottom:8px;">
+                <li>প্যারাসিটামল ৫০০মিগ্রা – দিনে ৩ বার</li>
+                <li>ওআরএস – প্রয়োজনমতো</li>
+              </ul>
+              <div class="button-row" style="justify-content:flex-start;">
+                <button class="btn btn-accent">ওষুধ দেওয়া হয়েছে</button>
+                <button class="btn btn-ghost">ড্যাশবোর্ডে ফিরে যান</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="section-header">
+          <div class="section-title">সাম্প্রতিক যাচাই</div>
+        </div>
+        <table class="table">
+          <thead>
+          <tr>
+            <th>সময়</th>
+            <th>রোগী</th>
+            <th>ডাক্তার</th>
+            <th>অবস্থা</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>১০:৩২ AM</td>
+            <td>আনিকা করিম</td>
+            <td>ডা. রহমান</td>
+            <td>দেওয়া হয়েছে</td>
+          </tr>
+          <tr>
+            <td>০৯:১৫ AM</td>
+            <td>মাসুদ রানা</td>
+            <td>ডা. রহমান</td>
+            <td>দেওয়া হয়েছে</td>
+          </tr>
+          <tr>
+            <td>গতকাল</td>
+            <td>শামীম আখতার</td>
+            <td>ডা. রহমান</td>
+            <td>অপেক্ষমাণ</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+</div>
+</body>
+</html>
