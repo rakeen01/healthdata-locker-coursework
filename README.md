@@ -358,41 +358,19 @@ Before demonstrating the application, verify the following:
 
 ### Patient Login
 
-Add the login-page screenshot here:
-
-```markdown
-![Patient login](docs/screenshots/login.png)
-```
+![Patient login](./docs/screenshots/login.png)
 
 ### Patient Dashboard
 
-Add the dashboard screenshot here:
-
-```markdown
-![Patient dashboard](docs/screenshots/dashboard.png)
-```
+![Patient dashboard](./docs/screenshots/User_account_dashboard.png)
 
 ### Prescription Detail
 
-Add the prescription-detail screenshot here:
-
-```markdown
-![Prescription detail](docs/screenshots/prescription.png)
-```
+![Prescription detail](./docs/screenshots/User_form_preview.png)
 
 ### Uploaded Reports
 
-Add the upload-management screenshot here:
-
-```markdown
-![Uploaded reports](docs/screenshots/uploads.png)
-```
-
-Create the following folder if it does not already exist:
-
-```text
-docs/screenshots/
-```
+![Uploaded reports](./docs/screenshots/PDF_upload.png)
 
 ## Current MVP Limitations
 
@@ -459,7 +437,7 @@ All committed sample data and screenshots should be clearly fictional or synthet
 
 ## Academic Project Notice
 
-This repository was prepared as a software engineering course project. It is an educational MVP and is not approved for real clinical use.
+This repository was prepared as a software engineering course project WEB 602 by Professor Jay Edmonson. It is an educational MVP and is not approved for real clinical use.
 
 It should not be used to store, transmit, diagnose, or manage real patient medical information without additional security review, legal review, privacy controls, deployment hardening, and regulatory compliance work.
 
